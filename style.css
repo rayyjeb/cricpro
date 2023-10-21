@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0;1&family=Nunito+Sans:opsz@6..12&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 10px;
+}
+.background{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 88px;
+}
+
+.header{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.topheader {
+    display: flex;
+    flex-direction: row;
+    background-color: #F05033;
+    color: white;
+    width: 97.6%;
+    padding: 10px;
+    justify-content: space-between;
+    
+
+  }
+h1{
+font-weight: 600;
+font-size: 52px;
+text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.66);
+margin-left: 40px;
+margin-top:50px;
+}
+h3{
+color: grey;
+margin-left: 40px;
+}
+a {
+  color: rgb(25, 167, 255);
+}
+.table{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.greyrow{
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+table,tr{
+    border-spacing: 15px;
+    width: 850px;
+    background-color: white;
+    border-collapse:collapse ;
+    
+}
+td{
+    padding: 10px 10px;
+}
+
+tr{
+    border-top:1px solid rgb(185, 185, 185) ;
+    
+    
+}
+th{
+    text-align: left;
+    background-color: #F05033;
+    color: white;
+    padding: 10px
+
+}
+.knocked{
+    color: rgb(164, 164, 164);
+}
+p{
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+}
+
+/* Images */
+
+
+  a {
+    cursor: pointer;
+  }
+  
+  /* Sehwag  */
+  #virenderimage {
+    position: absolute;
+    top: 310px;
+    left: 50px;
+  }
+  
+  /* sachin */
+  #sachinimage {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+  }
+  
+  /* gambhir */
+  #gambhirimage {
+    position: absolute;
+    top: 390px;
+    left: 50px;
+  }
+  
+  /* kolhi */
+  #viratimage {
+    position: absolute;
+    top: 430px;
+    left: 70px;
+  }
+  
+  /* Dhoni */
+  #dhoniimage {
+    position: absolute;
+    top: 480px;
+    left: 50px;
+  }
+  
+  /* yuvraj */
+  #yuvrajimage {
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    display: none;
+  }
+  
+  /* Suresh */
+  #sureshimage {
+    position: absolute;
+    top: 665px;
+    left: 240px;
+  }
+  
+  /* singh */
+  #harbhajanimg {
+    position: absolute;
+    top: 660px;
+    left: 370px;
+  }
+  
+  /* khan */
+  #zaheerimage {
+    position: absolute;
+    top: 660px;
+    left: 460px;
+  }
+  
+  /* Patel */
+  #munafimage {
+    position: absolute;
+    top: 659px;
+    left: 605px;
+  }
+  
+  /* shreeknth */
+  #sreesanthimg {
+    position: absolute;
+    top: 650px;
+    left: 680px;
+  }
+  
+  .img {
+    display: none;
+  }
